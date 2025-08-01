@@ -1,16 +1,12 @@
-# Ignore Python virtual environments
+Set-Content -Path ".gitignore" -Value @"
 venv/
-.venv/
-
-# Ignore dataset
-dataset/
-
-# Ignore cache and system files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Ignore other large files
+dataset/
+models/
 *.zip
+*.tar
 *.tar.gz
+"@
