@@ -1,8 +1,16 @@
+# Ignore Python virtual environments
 venv/
+.venv/
+
+# Ignore dataset
+dataset/
+
+# Ignore cache and system files
 __pycache__/
 *.pyc
-*.pkl
-*.log
-*.db
-*.pt
-*.h5
+*.pyo
+*.pyd
+
+# Ignore other large files
+*.zip
+*.tar.gz
